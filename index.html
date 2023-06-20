@@ -3,19 +3,137 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-  <title>My Resume 👩‍💻</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Karina Huizar 👩‍💻</title>
 </head>
 
 <body>
-  <h1>Karina Huizar</h1>
-  <img src="./assets/images/karina_circle.jpg" alt="Karina's profile picture" />
-  <h2>Summary</h2>
-  <p>Hi, I'm Karina. A Social Worker turned Software Engineer with over two years of frontend experience.</p>
-  <hr />
+  <!-- ! Hero -->
+  <section class="color-1">
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 pt-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="./images/dog.jpeg" class="d-block mx-lg-auto img-fluid" alt="Karina" height="200" loading="lazy">
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Karina Huizar</h1>
+          <p class="lead">Doggo ipsum yapper long doggo such treat wow such tempt blep, ruff puggo adorable doggo
+            boofers shoob, ur givin me a spook very taste wow big ol pupper. puggo aqua doggo smol borking doggo with a
+            long snoot for pats. </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ! Projects -->
+  <!-- First Row of Projects  -->
+  <section class="color-2">
+    <div class="album py-5">
+      <div class="container">
+        <h2>My Projects</h2>
+        <br />
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="./images/dictionary.jpg" alt="Dictionary" width="100%" height="300">
+              <div class="card-body">
+                <p class="card-text">Created a dictionary app using HTML, CSS, JavaScript, React, and dictionary API.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://happy-lalande-71889c.netlify.app/" class="btn btn-sm btn-outline-secondary"
+                      target="_blank">View</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="./images/weather.jpg" alt="Weather" width="100%" height="300">
+              <div class="card-body">
+                <p class="card-text">Created a weather app using HTML, CSS, JavaScript, React, and current weather API.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://priceless-murdock-eae738.netlify.app/" class="btn btn-sm btn-outline-secondary"
+                      target="_blank">View</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="./images/tindog.jpg" alt="Tindog" width="100%" height="300">
+              <div class="card-body">
+                <p class="card-text">Tindog is helping dogs meet new and interesting dogs nearby. Made with HTML, CSS,
+                  and Bootstrap.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://karinahuizar.github.io/tindog/" class="btn btn-sm btn-outline-secondary"
+                      target="_blank">View</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Second Row of Projects  -->
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="./images/reactquiz.jpg" alt="Quiz" width="100%" height="300">
+              <div class="card-body">
+                <p class="card-text">Created a quiz app using React and TypeScript. Used Styled-Components with React.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://astonishing-puppy-b99e9f.netlify.app/" class="btn btn-sm btn-outline-secondary"
+                      target="_blank">View</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="./images/starwars.jpg" alt="Star Wars" width="100%" height="300">
+              <div class="card-body">
+                <p class="card-text">React Memory game with Typescript and Styled Components.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://frolicking-chimera-a86874.netlify.app/" class="btn btn-sm btn-outline-secondary"
+                      target="_blank">View</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="./images/moveit.jpg" alt="Moving" width="100%" height="300">
+              <div class="card-body">
+                <p class="card-text">Move It project created with HTML, CSS, and Bootstrap.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://karinahuizar.github.io/move_it/" class="btn btn-sm btn-outline-secondary"
+                      target="_blank">View</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ! Something Else -->
   <h2>Education</h2>
   <ul>
     <li>SheCodes Workshops - Frontend Web Development, 2021</li>
